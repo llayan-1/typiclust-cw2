@@ -156,7 +156,7 @@ expected to be more pronounced
 ```
 typiclust_cw2.ipynb    — Full implementation:
                          Task 1 (TPC_RP original)
-                         Task 2 (baseline comparisons:
+                                 (baseline comparisons:
                                  Random, Least-Confidence,
                                  Margin, Entropy)
                          Task 3 (ablation study:
