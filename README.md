@@ -30,19 +30,19 @@ to the typicality estimator.
 
 TPC_RP operates in three steps:
 
-1. **Representation Learning** — SimCLR self-supervised
+1. **Representation Learning**: SimCLR self-supervised
 pre-training on the full unlabelled pool using a
 CIFAR-10-adapted ResNet-18 backbone (3×3 initial conv,
 no max-pooling). The projection head is discarded at
 inference; only the 512-d penultimate features are used.
 
-2. **Clustering for Diversity** — Mini-Batch K-Means
+2. **Clustering for Diversity**: Mini-Batch K-Means
 partitioning into K = min(|L| + B, 500) clusters.
 Clusters with fewer than five points are excluded.
 Setting K = |L| + B guarantees at least B uncovered
 clusters, enforcing diversity across semantic regions.
 
-3. **Typicality-Based Querying** — Selects the most
+3. **Typicality-Based Querying**: Selects the most
 typical example from each uncovered cluster using
 inverse average K-NN distance. Clusters with the fewest
 labelled points are prioritised, ties broken by size.
