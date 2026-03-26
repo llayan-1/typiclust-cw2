@@ -49,7 +49,7 @@ labelled points are prioritised, ties broken by size.
 
 ---
 
-## Baseline Comparisons (Task 2)
+## Baseline Comparisons
 
 Four baselines were implemented and compared against
 TPC_RP to evaluate the paper's central claim that
