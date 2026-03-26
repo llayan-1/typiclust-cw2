@@ -1,4 +1,4 @@
-# TPC_RP: Active Learning on a Budget — CIFAR-10 Implementation
+# TPC_RP: Active Learning on a Budget CIFAR-10 Implementation
 
 **Coursework 2 | 5CCSAMLF Machine Learning | King's College London**
 **Student:** Layan Alsubhi | K23065725
